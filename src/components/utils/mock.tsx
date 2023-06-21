@@ -1,8 +1,8 @@
 import { product } from "./types"
 import hoodies from '@/logo/hoodies.webp'
-import pic1 from '@/logo/pic1.jpg'
-import pic2 from '@/logo/pic2.jpg'
-import pic3 from '@/logo/pic3.jpg'
+import pic1 from '@/logo/pic1.webp'
+import pic2 from '@/logo/pic2.webp'
+import pic3 from '@/logo/pic3.webp'
 
 
 
