@@ -1,5 +1,4 @@
 import { product } from "./types"
-import hoodies from '@/logo/hoodies.webp'
 import pic1 from '@/logo/pic1.webp'
 import pic2 from '@/logo/pic2.webp'
 import pic3 from '@/logo/pic3.webp'
@@ -33,7 +32,7 @@ export const Products:product[] =[
         name:"shoes",
         category:"kids",
         price:300,
-        img:hoodies
+        img:pic2
     },
     {
         id:5,
@@ -47,28 +46,28 @@ export const Products:product[] =[
         name:"T-shiet",
         category:"male",
         price:350,
-        img:pic2
+        img:pic1
     },
     {
         id:7,
         name:"sweater",
         category:"female",
         price:90,
-        img:pic3
+        img:pic2
     },
     {
         id:8,
         name:"Dress shirt",
         category:"male",
         price:550,
-        img:hoodies
+        img:pic2
     },
     {
         id:9,
         name:"Dress pent",
         category:"male",
         price:199,
-        img:pic1
+        img:pic3
     },
     
 ]

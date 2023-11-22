@@ -3,8 +3,6 @@ import ProductCard from "@/components/productCard";
 import {StaticImageData} from 'next/image'
 
 
-
-
 const getProductByCategory=(category:string)=>{
 return Products.filter((product)=>product.category===category)
 }

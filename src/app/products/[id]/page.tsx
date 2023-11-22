@@ -16,9 +16,10 @@ export default function Page({ params }: { params: { id: number } }) {
             result.map((product) => (
                <div key={product.id} className="flex items-center justify-center">
                 <div>
-                    <h2 className="font-bold">Product Details</h2>
+                    <h1 className="font-bold">Product Details</h1>
                     <Image src={product.img} alt={product.name}/>
                     <p className="font-bold">{product.name}</p>
+                    <h1 className="font-bold"></h1>
                     <p className="font-bold">$ {product.price}</p>
                     <p className="font-bold">{product.category}</p>
                     <Button className="rounded-full">Add to cart</Button>
